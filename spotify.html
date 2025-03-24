@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="shortcut icon" href="./IMAGES/spotify.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div> 
+            </div>
+            <div class="library">
+                <div class="options" style="background-color: #121212;">
+                    <div class="lib-option nav-option">
+                        <i class="fa-solid fa-layer-group" style="background-color: #121212;"></i>
+                        <a href="#" >Your Library</a>
+                    </div>
+                    <div class="icons" style="background-color: #121212;">
+                        <i class="fa-solid fa-plus" style="background-color: #121212;"></i>
+                        <i class="fa-solid fa-arrow-right" style="background-color: #121212;"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first profile</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./IMAGES/backward_icon.png">
+                    <img src="./IMAGES/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options" style="background-color: #121212;">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+                <h2 style="background-color: #121212;">Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="IMAGES/sita-ramam.png" class="card-img">
+                        <p class="card-title">Sita Ramam </p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+
+                <h2 style="background-color: #121212; margin-top: 2.5rem;">Trending songs</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="IMAGES/soni-soni.png" class="card-img">
+                        <p class="card-title">Soni Soni </p>
+                        <p class="card-info">Darshan Raval, Jonita Gandhi & Rochak Kohli</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/mast-magan.jpg" class="card-img">
+                        <p class="card-title">2 States </p>
+                        <p class="card-info">Arijit Singh, Chinmayi</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/om-shanti-om.jpg" class="card-img">
+                        <p class="card-title">OM Shanti OM </p>
+                        <p class="card-info">Shreya Ghoshal, Sunidhi Chauhan, Shaan</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/dhadak.jpg" class="card-img">
+                        <p class="card-title">Dhadak </p>
+                        <p class="card-info">Ajay Gogavale, Shreya Ghoshal</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/ranjhan.jpg" class="card-img">
+                        <p class="card-title">Raanjhan ("Do Patti") </p>
+                        <p class="card-info">Sachet-Parampara, Parampara Tandon</p>
+                    </div>
+                </div>
+
+                <h2 style="background-color: #121212; margin-top: 2.5rem;">Popular Artists</h2>
+                <div class="cards-container">
+                    <div class="cards">
+                        <img src="IMAGES/artist1.jpg" class="art-card-img">
+                        <p class="cards-title">Shreya Ghoshal </p>
+                        <p class="cards-info">Artist</p>
+                    </div>
+                    <div class="cards">
+                        <img src="IMAGES/artist2.jpg" class="art-card-img">
+                        <p class="cards-title">Sonu Nigam </p>
+                        <p class="cards-info">Artist</p>
+                    </div>
+                    <div class="cards">
+                        <img src="IMAGES/artist3.jpg" class="art-card-img">
+                        <p class="cards-title">Shaan</p>
+                        <p class="cards-info">Artist</p>
+                    </div>
+                    <div class="cards">
+                        <img src="IMAGES/artist4.jpg" class="art-card-img">
+                        <p class="cards-title">Palak Munchal </p>
+                        <p class="cards-info">Artist</p>
+                    </div>
+                    <div class="cards">
+                        <img src="IMAGES/artist5.jpg" class="art-card-img">
+                        <p class="cards-title">Monali Thakur</p>
+                        <p class="cards-info">Artist</p>
+                    </div>
+                </div>
+
+                <h2 style="background-color: #121212; margin-top: 2.5rem;">India's Best</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="IMAGES/song1.jpg" class="card-img">
+                        <p class="card-info">Check out the songs Hindi is vibing to!</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/song2.jpg" class="card-img">
+                        <p class="card-info">Check out the songs Telugu is vibing to!</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/song3.jpg" class="card-img">
+                        <p class="card-info">Check out the songs Punjabi is vibing to!</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/song4.jpg" class="card-img">
+                        <p class="card-info">Check out the songs Tamil is vibing to!</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/song5.jpg" class="card-img">
+                        <p class="card-info">Check out the songs Bhojpuri is vibing to!</p>
+                    </div>
+                </div>
+                
+                <h2 style="background-color: #121212; margin-top: 2.5rem;">Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="IMAGES/chart1.png" class="card-img">
+                        <p class="card-info">Your weekly update of the most played tracks right now - Global</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/chart2.jpg" class="card-img">
+                        <p class="card-info">Your weekly update of the most played tracks right now - India</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/chart3.jpg" class="card-img">
+                        <p class="card-info">Your weekly update of the most played tracks right now - Global</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/chart4.jpg" class="card-img">
+                        <p class="card-info">Your weekly update of the most played tracks right now - India</p>
+                    </div>
+                    <div class="card">
+                        <img src="IMAGES/chart5.jpg" class="card-img">
+                        <p class="card-info">Your weekly update of the most played tracks right now - USA</p>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <div class="Company">
+                        <h4>Company</h4>
+                        <p>About</p>
+                        <p>Jobs</p>
+                        <p>For the Record</p>
+                    </div>
+                    <div class="Communities">
+                        <h4>Communities</h4>
+                        <p>For Artists</p>
+                        <p>Developers</p>
+                        <p>Advertising</p>
+                        <p>Investors</p>
+                        <p>Vendors</p>
+                    </div>
+                    <div class="Useful-links">
+                        <h4>Useful links</h4>
+                        <p>Support</p>
+                        <p>Free</p>
+                        <p>Mobile</p>
+                        <p>App</p>
+                    </div>
+                    <div class="Spotify-Plans">
+                        <h4>Spotify Plans</h4>
+                        <p>Premium</p>
+                        <p>Individual</p>
+                        <p>Preimum Duo</p>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./IMAGES/player_music.jpg">
+                <div class="play">
+                    <div class="song1" style="font-weight: 700;">Daylight</div>
+                    <div class="singer" style="opacity: 0.5;">David Kushner</div>
+                </div>
+                <div class="play-icons">
+                <i class="fa-regular fa-heart" style="opacity: 0.5; margin-left: 1rem;"></i>
+                <i class="fa-solid fa-list-check" style="opacity: 0.5; margin-left: 1rem;"></i>
+                </div>            
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./IMAGES/player_icon1.png" class="player-control-icon">
+                    <img src="./IMAGES/player_icon2.png" class="player-control-icon">
+                    <img src="./IMAGES/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem;">
+                    <img src="./IMAGES/player_icon4.png" class="player-control-icon">
+                    <img src="./IMAGES/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="icons">
+                    <i class="fa-solid fa-music"></i>
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <i class="fa-solid fa-download"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <div class="volume-bar">
+                    <input type="range" min="0" max="100" class="mute-bar" step="1">
+                </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+</body>
+</html>
